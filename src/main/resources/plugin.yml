@@ -1,0 +1,10 @@
+name: NPCGPT
+version: '${version}'
+main: dev.potato.npcgpt.NPCGPT
+api-version: '1.20'
+depend:
+  - Citizens
+commands:
+  spawnnpc:
+    description: Spawns a Chat GPT NPC
+    usage: /spawnnpc [name] [role]
